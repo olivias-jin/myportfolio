@@ -1,0 +1,102 @@
+.navigation {
+  display: flex;
+  justify-content: center; /* 가로 중앙 정렬 */
+  gap: 20px; /* 메뉴 항목 사이 간격 */
+  list-style: none; /* 기본 목록 스타일 제거 */
+  padding: 0;
+}
+
+.navigation a {
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  color: rgb(88, 88, 88);
+}
+
+body {
+  background: #faf9ef;
+  flex-direction: column; /* 세로 방향으로 요소 배치 */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  h1 {
+    font-size: 50px;
+    font-style: italic;
+  }
+}
+
+main {
+  text-align: center;
+  word-wrap: break-word;
+  width: 60%;
+  line-height: 2;
+}
+
+.zoom-img {
+  width: 500px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+.zoom-img:hover {
+  transform: scale(1.5); /* Hover 시 확대 */
+}
+
+.tech-container {
+  margin-top: 10px;
+}
+
+.tech-box {
+  display: inline-block;
+  background: #f0f0f0;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+}
+
+.link-box {
+  display: inline-block;
+  background: #f9d403;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid #ddd;
+  text-decoration: none;
+  color: #ffffff;
+  transition: background 0.3s ease-in-out;
+}
+
+.link-box:hover {
+  background: #f5eaaf;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #333;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.back-to-top:hover {
+  background: #555;
+}
+
+.icon {
+  width: 35px;
+}
+
+a {
+  text-decoration: none;
+}
