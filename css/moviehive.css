@@ -99,3 +99,12 @@ main {
 a {
   text-decoration: none;
 }
+
+footer {
+  margin-top: 100px;
+  text-align: center;
+
+  p {
+    font-weight: bold;
+  }
+}

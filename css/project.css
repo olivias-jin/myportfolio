@@ -24,7 +24,12 @@ body {
 
 main {
   h1 {
-    text-align: center;
+    margin-top: 50px;
+    flex-direction: column; /* 세로 방향으로 요소 배치 */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-style: italic;
   }
 }
 
@@ -101,6 +106,7 @@ main {
 }
 
 footer {
+  margin-top: 100px;
   bottom: 0;
   text-align: center;
   p {

@@ -22,18 +22,84 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
-
-  h1 {
-    font-size: 50px;
-    font-style: italic;
-  }
 }
 
-main {
+/* 처음에는 main과 footer 숨김 */
+main,
+footer {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
   text-align: center;
   word-wrap: break-word;
   width: 60%;
   line-height: 2;
+
+  h1 {
+    margin-top: 50px;
+    flex-direction: column; /* 세로 방향으로 요소 배치 */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-style: italic;
+  }
+}
+
+/* Hello 애니메이션 */
+.hello {
+  display: flex;
+  gap: 5px;
+  font-size: 5rem;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1; /* 처음엔 보이도록 설정 */
+  transition: opacity 1s ease-in-out;
+}
+
+.hello span {
+  opacity: 0;
+  animation: typing 0.5s forwards;
+}
+
+/* 글자 하나씩 나타나는 애니메이션 */
+@keyframes typing {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 각 글자에 대해 순차적으로 애니메이션 적용 */
+.hello span:nth-child(1) {
+  animation-delay: 0.3s;
+}
+.hello span:nth-child(2) {
+  animation-delay: 0.6s;
+}
+.hello span:nth-child(3) {
+  animation-delay: 0.9s;
+}
+.hello span:nth-child(4) {
+  animation-delay: 1.2s;
+}
+.hello span:nth-child(5) {
+  animation-delay: 1.5s;
+}
+
+/* 헬로가 사라지고 전체 콘텐츠가 나타나는 효과 */
+body.show-content .hello {
+  opacity: 0;
+}
+
+body.show-content main,
+body.show-content footer {
+  opacity: 1;
 }
 
 .myself {
@@ -48,10 +114,10 @@ main {
 footer {
   margin-top: 100px;
   text-align: center;
+}
 
-  p {
-    font-weight: bold;
-  }
+footer p {
+  font-weight: bold;
 }
 
 .mywork {
@@ -70,6 +136,7 @@ footer {
 .mywork:hover {
   background: #f5eaaf;
 }
+
 .back-to-top {
   position: fixed;
   bottom: 20px;
