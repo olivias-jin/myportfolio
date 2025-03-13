@@ -1,0 +1,168 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.navigation a {
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  color: rgb(88, 88, 88);
+}
+
+body {
+  background: #faf9ef;
+  flex-direction: column; /* 세로 방향으로 요소 배치 */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  h1 {
+    font-style: italic;
+  }
+
+  h2 {
+    font-style: italic;
+  }
+}
+
+main {
+  text-align: center;
+  word-wrap: break-word;
+  width: 60%;
+  line-height: 2;
+  h1 {
+    margin-top: 50px;
+    flex-direction: column; /* 세로 방향으로 요소 배치 */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-style: italic;
+  }
+}
+
+.table-container {
+  padding: 20px; /* 양옆 여백 추가 */
+  display: flex;
+  justify-content: center; /* 테이블을 가운데 정렬 */
+  text-align: center;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+  vertical-align: middle;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+.link-box {
+  display: flex;
+  justify-content: center;
+  background: #f9d403;
+  align-items: center; /* 가로 정렬 */
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid #ddd;
+  text-decoration: none;
+  color: #ffffff;
+  transition: background 0.3s ease-in-out;
+  text-align: center;
+  width: 50px;
+  height: 25px;
+}
+
+.link-box:hover {
+  background: #f5eaaf;
+}
+
+.Overview {
+  width: 65%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.8;
+}
+
+img {
+  margin-top: 20px;
+  width: 80%;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+.list {
+  text-align: left;
+  align-items: center;
+  justify-content: left;
+}
+
+.list .p {
+  font-weight: bold;
+}
+
+.zoom-img {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 500px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+.zoom-img:hover {
+  transform: scale(1.5); /* Hover 시 확대 */
+}
+
+footer {
+  margin-top: 100px;
+  bottom: 0;
+  text-align: center;
+  p {
+    font-weight: bold;
+  }
+}
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #333;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.back-to-top:hover {
+  background: #555;
+}
+.icon {
+  width: 35px;
+}
+
+a {
+  text-decoration: none;
+}

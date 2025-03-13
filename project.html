@@ -22,14 +22,16 @@
         <h1>My Projects</h1>
         <div class="project-card-container">
             <div class="project-card">
-                <h2>Webpage</h2>
+                <h2>Web Application</h2>
                 <img src="img/project/pokedex.png" alt="Pokedex">
                 <h3>Pokedex</h3>
                 <p>This app is a simple Pokémon repository that displays a list of Pokémon from nine different
                     generations fetched from the PokéAPI. It allows users to view Pokémon details in a modal, including
                     their types, abilities, height, weight, and a Pokédex entry. The app also provides options to load
                     Pokémon from different generations.</p>
-                <a href="pokedex.html" class="btn">View Details</a>
+                <button class="btn">Read More</button>
+
+
             </div>
 
             <div class="project-card">
@@ -40,40 +42,55 @@
                     with React that allows users to browse, view details, and manage favorite movies. Users can sign up,
                     log in, view a list of movies, see details about each movie, and manage their profile and favorite
                     movies.
-
                 </p>
-                <a href="moviehive.html" class="btn">View Details</a>
+                <button class="btn">Read More</button>
+                <a href="moviehive_case.html" role="menuitem" class="button">Case Study</a>
+
             </div>
 
             <div class="project-card">
                 <h2>PWA: Mobile Chat App (React)</h2>
-                <img src="img/project/chat.png" alt="meetapp">
-                <h3>Chat App</h3>
+                <img src="img/project/chat.png" alt="ChatApp">
+                <h3>Chit Chat Talk</h3>
                 <p>
                     This is a mobile chat application built with React Native. It provides users with a chat interface
                     and options to share images and their location.</p>
-                <a href="chat.html" class="btn">View Details</a>
+                <button class="btn">Read More</button>
+
             </div>
 
             <div class="project-card">
                 <h2>React Native App</h2>
-                <img src="img/project/meetapp.png" alt="chatapp">
+                <img src="img/project/meetapp.png" alt="Meet App">
                 <h3>Meet App</h3>
                 <p>This is Event application built with Progressive Web application (PWA) and it uses Google Calendar
                     API to fetch upcoming events.</p>
-                <a href="meetapp.html" class="btn">View Details</a>
+                <button class="btn">Read More</button>
+
             </div>
 
             <div class="project-card">
                 <h2>Full-Stack Web App (Angular)</h2>
-                <img src="img/project/angular3.png" alt="meetapp">
+                <img src="img/project/angular3.png" alt="Angular">
                 <h3>Web App</h3>
                 <p>This is Angular applocation of the MovieBaseAPI, a responsive web application built using Angular.
                     This app allows users to browse movies, register an account, log in, and manage their profile.</p>
-                <a href="webappangular" class="btn">View Details</a>
+                <button class="btn">Read More</button>
+
             </div>
     </main>
+
+    <!-- ✅ 모달 -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-body"></div> <!-- 내용을 넣을 공간 -->
+        </div>
+    </div>
+
+    <script src="js/modal.js"></script>
 </body>
+
 <footer>
     <p>Find me on</p>
     <a href="https://github.com/olivias-jin" target="_blank">

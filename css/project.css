@@ -82,7 +82,8 @@ main {
   color: #555;
 }
 
-.project-card .btn {
+.project-card .btn,
+.button {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
@@ -91,9 +92,14 @@ main {
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
+  border: none;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.project-card .btn:hover {
+.project-card .btn:hover,
+.button:hover {
   background-color: #f2c300;
 }
 
@@ -134,4 +140,167 @@ footer {
 
 a {
   text-decoration: none;
+}
+
+/* 모달 기본 스타일 */
+.modal {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1000; /* 다른 요소 위에 표시 */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* 반투명 배경 */
+  display: flex;
+}
+
+/* 모달 내용 */
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  width: 60%;
+  max-width: 600px; /* 최대 너비 제한 */
+  max-height: 80vh;
+  border-radius: 10px; /* 둥근 테두리 */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* 그림자 */
+  position: relative;
+  animation: fadeIn 0.3s ease-in-out;
+  overflow-y: auto;
+  font-family: "YourFont", sans-serif !important;
+}
+
+/* 스크롤 바 스타일 */
+.modal-content::-webkit-scrollbar {
+  width: 8px; /* 스크롤 바 너비 */
+}
+
+/* 스크롤 바 트랙 (배경) */
+.modal-content::-webkit-scrollbar-track {
+  background: #f1f1f1; /* 연한 배경 */
+  border-radius: 10px; /* 둥글게 */
+}
+
+/* 스크롤 바 핸들 (움직이는 부분) */
+.modal-content::-webkit-scrollbar-thumb {
+  background: #888; /* 어두운 색 */
+  border-radius: 10px; /* 둥글게 */
+}
+
+/* 스크롤 바 호버 시 스타일 */
+.modal-content::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.modal-content h1 {
+  font-size: 24px; /* 글자 크기 */
+  color: #333; /* 글자 색 */
+  text-align: center; /* 가운데 정렬 */
+  font-weight: bold;
+}
+
+/* 이미지 */
+
+.modal-content .zoom-img {
+  width: 100%;
+}
+
+/* 링크 버튼 스타일 */
+.modal-content .link-box {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #ffd700; /* 노란색 배경 */
+
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px; /* 둥근 모서리 */
+  margin: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* 마우스를 올렸을 때 */
+.modal-content .link-box:hover {
+  background-color: #ffcc00; /* 조금 더 진한 노란색 */
+}
+
+/* 링크 컨테이너 스타일 (가운데 정렬) */
+.modal-content .Link {
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* 닫기 버튼 */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #555;
+  transition: color 0.3s;
+}
+
+.close:hover {
+  color: black;
+}
+
+/* 링크 스타일 */
+.link-box {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: #f9d403;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+.link-box:hover {
+  background-color: #b3a100;
+}
+
+/* 기술 태그 스타일 */
+.tech-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tech-box {
+  background: #f1f1f1;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* 이미지 스타일 */
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.zoom-img {
+  width: 100px;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.zoom-img:hover {
+  transform: scale(1.1);
+}
+
+/* 애니메이션 */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
