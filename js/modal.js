@@ -99,6 +99,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 <span class="tech-box">CSS</span>
                 <span class="tech-box">HTML</span>
                 <span class="tech-box">Prettier</span>
+                <span class="tech-box">AsyncStorage</span>
+                <span class="tech-box">Firebase Authentication</span>
+                <span class="tech-box">Expo</span>
+                <span class="tech-box">Node.js</span>
+                <span class="tech-box">JSON</span>
+                <span class="tech-box">Firebase</span>
+                <span class="tech-box">React Native</span>
             </div>
 
             <h3>Page Views</h3>
