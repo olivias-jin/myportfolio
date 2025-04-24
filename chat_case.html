@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Hive Case Study</title>
+    <link rel="stylesheet" type="text/css" href="css/chat_case.css">
+    <ul role="menubar" class="navigation">
+        <li role="presentation">
+            <a href="index.html" role="menuitem">Main</a>
+            <a href="project.html" role="menuitem">Projects</a>
+            <a href="about.html" role="menuitem">About</a>
+            <a href="contact.html" role="menuitem">Contact</a>
+        </li>
+    </ul>
+</head>
+
+<body>
+    <h1>CASE STUDY FOR CHAT APP</h1>
+    <img src="img/case study/Chatapp/chat1.png">
+
+    <h2>Overview</h2>
+    <div class="Overview">
+        <p>Chit Chat Talk was a personal project I built as part of my Full-Stack Web Development course at CareerFoundry. 
+            This chat application enables seamless 1-on-1 communication, where users can log in securely and engage in real-time messaging. The app allows users to share photos and their geolocation, enhancing the chat experience with rich media and location-based interactions. Designed for ease of use and privacy, the app ensures that users can connect with others and share meaningful content, all while maintaining control over their data.
+        </p>
+    </div>
+
+
+    <h2>Technology Stack</h2>
+    <div class="talbe-container">
+        <table>
+            <tbody>
+                <tr>
+                    <td>Frontend</td>
+                    <td>React Native( Gifted Chat, AsyncStorage, React Navigation), CSS</td>
+                    <td><a href="https://github.com/olivias-jin/chat-app.git" target="_blank"
+                            class="link-box">Github</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Backend</td>
+                    <td>Node.js, JSON,  Firebase (to store user data and messages)
+                    </td>
+                    <td>
+                        <a href="https://github.com/olivias-jin/chat-app.git" target="_blank" class="link-box">Github
+                        </a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Deployment</td>
+                    <td>Github, AsyncStorage</td>
+                    
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Authentication</td>
+                    <td>Firecase Authentication</td>
+                    <td> 
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Application Use</td>
+                    <td>Expo</td>
+                    <td> 
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2>Implementation Process</h2>
+    <div class="list">
+
+        <h3>Define Requirements and Features</h3>
+
+        <ul>
+            <li>User Authentication: Users must be able to log in, and authenticate
+            </li>
+            <li>Real-time messaging: Messages should be sent and received in real-time (using a service Firebase)
+            </li>
+            <li>User Profiles: Users should have profiles with display names and other customizable settings</li>
+            <li>Message Types: Consider text, images, video, or files            </li>
+            <li>Message History: Store and retrieve past messages, whether it’s for one-on-one chats or group chats</li>
+        </ul>
+
+
+        <h3>Simple Chat Interface</h3>
+        <ul>
+            <li> Create a clean and simple chat window with a text input for sending messages and an area to display the chat history
+              </li>  
+              <li>Allow users to send photos by uploading images and display them in the chat window
+                
+            </li>
+        </ul>
+
+        <h3>Geolocation (Address)</h3>
+        <ul>
+            <li>Use the browser’s built-in geolocation API to get the user’s current location (latitude and longitude).
+            </li>
+            <li>Send this data as a message to the other user to view the location on Google Maps.
+
+            </li>
+        </ul>
+
+        <h3>Permission Requests</h3>
+        <ul>
+            <li>Give users a choice: Allow users to decide whether to grant the permission or not
+
+            </li>
+        </ul>
+
+    </div>
+
+
+
+    <h2>Achievements & Lessons Learned</h2>
+    <div class="list">
+        <h3>Achievements</h3>
+        <ul>
+            <li>1-on-1 Messaging Implementation: Successfully enabling users to send and receive messages in real-time with each other is a significant achievement.
+            </li>
+
+            <li>File Transfer Feature: Adding the ability for users to send photos or files enhances the functionality of the app and is an impressive milestone.</li>
+
+            <li>Real-time Data Handling: Achieving seamless real-time message delivery with technologies like WebSocket is a major accomplishment.
+            </li>
+            <li>    
+                UI Improvements: Designing a clean and intuitive user interface that ensures easy navigation for users.
+            </li>
+        </ul>
+
+
+        <h3>Lessons Learned</h3>
+        <ul>
+            <l1>Challenges of Real-time Communication: Working with technologies like WebSocket and long-polling teaches you the complexities of real-time messaging.</l1>
+            <li>Error Handling & Exception Management: Dealing with issues like network disconnections or server errors helps you understand the importance of robust error handling.
+            </li>
+        </ul>
+    </div>
+
+    <h2>Future Improvements</h2>
+    <ul>
+        <li>Message Encryption: Add end-to-end encryption to secure users' messages and protect their privacy.</li>
+        <li>Group Chat Functionality: Expand beyond 1-on-1 messaging by adding support for group chats, where multiple users can participate in a conversation.
+        </li>
+        <li>User Presence Indicators: Show users when others are online or typing, enhancing the real-time feel of the app.
+        </li>
+        <li>Push Notifications: Implement push notifications to alert users when they receive new messages, even when the app is not open.
+        </li>
+        <li>Message Search and History: Allow users to search through their chat history and retrieve old messages easily.</li>
+    <li>Message Reactions: Enable users to react to messages with emojis or other reactions, adding an interactive layer to conversations.</li>
+    <li>File Previews: Add the ability to preview images or files before they are sent, improving the user experience.</li>
+    <li>User Blocking and Reporting: Implement features for users to block or report others, ensuring a safer environment.</li>
+    
+<li>Cross-Platform Support: Make the app available on multiple platforms (e.g., mobile and web) and ensure it works seamlessly across devices.</li></ul>
+
+
+    <h2>Page Views</h2>
+    <a href="#">
+         <img src="img/case study/Chatapp/chat_menu.png" class="zoom-img">
+         <img src="img/case study/Chatapp/chat_camera.png" class="zoom-img">
+        <img src="img/case study/Chatapp/chat_photo.png" class="zoom-img">
+        <img src="img/case study/Chatapp/chat_photolist.png" class="zoom-img">
+        <img src="img/case study/Chatapp/chat_location.png" class="zoom-img">
+        <img src="img/case study/Chatapp/chat.png" class="zoom-img">
+ 
+    </a>
+</body>
+
+<footer>
+    <p>Find me on</p>
+    <a href="https://github.com/olivias-jin" target="_blank">
+        <img src="img/icons8-github.svg" alt="github" class="icon">
+    </a>
+    <a href="https://www.linkedin.com/in/oliviasjin/" target="_blank">
+        <img src="img/icons8-linkedin.svg" alt="linkedin" class="icon">
+    </a>
+    <a href="https://x.com/jin_olivia95603" target="_blank">
+        <img src="img/icons8-x.svg" alt="x" class="icon">
+    </a>
+
+
+    <a href="#top" class="back-to-top">Back to Top</a>
+</footer>
+
+</html>
