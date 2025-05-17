@@ -200,6 +200,33 @@ document.addEventListener("DOMContentLoaded", () => {
 
             </a>
         </div>`,
+        "3D Text": `
+    <h1>Three.js 3D Text</h1>
+      <div class="Link">
+            <a href="https://webgl-3d-text-7v42nouc4-olivias-projects-aaec2529.vercel.app/" target="_blank" class="link-box">Live App</a>
+            <a href="https://github.com/olivias-jin/pokemonRepository.git" target="_blank"
+                class="link-box">Repository</a>
+        </div>
+        <div>
+            <h3>Project Overview</h3>
+            <p>This is my first Three.js 3D project. I created a torus shape and included my name in the scene to explore basic modeling and animation.</p>
+
+            <h3>Technologies Used</h3>
+            <div class="tech-container">
+                <span class="tech-box">Three.js</span>
+                <span class="tech-box">FontLoader</span>
+                <span class="tech-box">TextGeometry</span>
+                <span class="tech-box">OrbitControls</span>
+            </div>
+
+            <h3>Page Views</h3>
+            <a href="#">
+                <img src="img/project/3d_text.png" class="zoom-img">
+                 <video width="500" height="360" controls autoplay>
+      <source src="img/project/3d_video.mp4" type="video/mp4">
+
+            </video>    </a>
+        </div>`,
   };
 
   // 초기 모달 상태를 닫음
