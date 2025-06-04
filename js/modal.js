@@ -247,6 +247,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 <span class="tech-box">Vercel</span>
                 <span class="tech-box">FontLoader</span>
                 <span class="tech-box">OrbitControls</span>
+                <span class="tech-box">PlaneGeometry</span>
+                <span class="tech-box">MeshStandardMaterial</span>
+                
             </div>
 
             <h3>Page Views</h3>
@@ -260,7 +263,41 @@ document.addEventListener("DOMContentLoaded", () => {
             </video>    </a>
         </div>`,
 
+"Surfing Duck": `
+    <h1>Three.js</h1>
+      <div class="Link">
+            <a href="https://waves-seven-henna.vercel.app/" class="link-box">Live App</a>
+            <a href="https://github.com/olivias-jin/waves.git" target="_blank"
+                class="link-box">Repository</a>
+        </div>
+        <div>
+            <h3>Project Overview</h3>
+            <p>This project use shaders to create a raging sea. Also animate the waves and add control of the parameters with the debug panel. </p>
+            <h3>Technologies Used</h3>
+            <div class="tech-container">
+                <span class="tech-box">Three.js</span>
+                <span class="tech-box">JavaScript</span>
+                <span class="tech-box">Vertex Shader</span>
+                <span class="tech-box">Fragment Shader</span>
+                <span class="tech-box">Vite</span>
+                <span class="tech-box">Vercel</span>
+                <span class="tech-box">FontLoader</span>
+                <span class="tech-box">OrbitControls</span>
+                <span class="tech-box">PlaneGeometry</span>
+                <span class="tech-box">MeshStandardMaterial</span>
+                
+            </div>
 
+            <h3>Page Views</h3>
+            <a href="#">
+            <img src="img/project/surfing.png" class="zoom-img">
+                <img src="img/project/surfing1.png" class="zoom-img">
+                <img src="img/project/surfing2.png" class="zoom-img">
+                 <video width="500" height="360" controls autoplay>
+      <source src="img/project/surfing.mov" type="video/mp4">
+
+            </video>    </a>
+        </div>`,
   };
 
   // 초기 모달 상태를 닫음
