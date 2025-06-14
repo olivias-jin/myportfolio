@@ -310,8 +310,8 @@ document.addEventListener("DOMContentLoaded", () => {
         <div>
             <h3>Project Overview</h3>
             <p>Portal Scene Creation with Blender and Three.js
-I modeled a 3D portal scene using Blender and integrated it into a real-time web experience using Three.js. The process involved optimizing geometry and textures for web performance, exporting with GLTF format, and applying lighting, camera controls, and animations in Three.js.
-This project strengthened my understanding of 3D asset workflows, WebGL rendering, and interactive web experiences.</p>
+    I modeled a 3D portal scene using Blender and integrated it into a real-time web experience using Three.js. The process involved optimizing geometry and textures for web performance, exporting with GLTF format, and applying lighting, camera controls, and animations in Three.js.
+    This project strengthened my understanding of 3D asset workflows, WebGL rendering, and interactive web experiences.</p>
             <h3>Technologies Used</h3>
             <div class="tech-container">
                 <span class="tech-box">Three.js</span>
