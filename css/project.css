@@ -17,9 +17,10 @@
 }
 
 body {
-  background: #faf9ef;
+  background: #DAECFF;
   flex-direction: column; /* 세로 방향으로 요소 배치 */
   display: flex;
+  font-family: 'Helvetica', 'Arial', sans-serif
 }
 
 main {
@@ -87,8 +88,8 @@ main {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
-  background-color: #f9d403;
-  color: #fff;
+  background-color: #041B34;
+  color: #acc8e5;
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
@@ -100,7 +101,8 @@ main {
 
 .project-card .btn:hover,
 .button:hover {
-  background-color: #f2c300;
+  background-color: #acc8e5;
+  color: #041B34;
 }
 
 /* 모바일 화면을 위한 반응형 */
@@ -210,8 +212,8 @@ a {
 .modal-content .link-box {
   display: inline-block;
   padding: 10px 15px;
-  background-color: #ffd700; /* 노란색 배경 */
-
+  background-color: #041B34; /* 노란색 배경 */
+  color:#acc8e5;
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px; /* 둥근 모서리 */
@@ -221,7 +223,8 @@ a {
 
 /* 마우스를 올렸을 때 */
 .modal-content .link-box:hover {
-  background-color: #ffcc00; /* 조금 더 진한 노란색 */
+  background-color: #acc8e5; /* 조금 더 진한 노란색 */
+  color:#041B34;
 }
 
 /* 링크 컨테이너 스타일 (가운데 정렬) */

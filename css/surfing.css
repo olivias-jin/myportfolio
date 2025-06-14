@@ -17,7 +17,7 @@
   }
   
   body {
-    background: #faf9ef;
+    background: #DAECFF;
     flex-direction: column; /* 세로 방향으로 요소 배치 */
     justify-content: center;
     align-items: center;
@@ -62,7 +62,7 @@
   
   .link-box {
     display: inline-block;
-    background: #f9d403;
+    background: #acc8e5;
     padding: 10px 15px;
     margin: 5px;
     border-radius: 8px;

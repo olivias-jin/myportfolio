@@ -17,8 +17,10 @@
 }
 
 body {
-  background: #faf9ef;
+  background: #DAECFF;
   height: 100vh; /* 화면 전체 높이 차지 */
+
+  font-family: 'Helvetica', 'Arial', sans-serif
 }
 
 main {
@@ -78,8 +80,8 @@ textarea:focus {
 }
 
 input[type="submit"] {
-  background-color: #5e5e5e;
-  color: #fff;
+  background-color: #041B34;
+  color: #acc8e5;
   border: none;
   padding: 10px 20px;
   font-size: 16px;
@@ -89,7 +91,8 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #dbdbd4; /* 호버 시 배경 색 변경 */
+  background-color: #acc8e5; /* 호버 시 배경 색 변경 */
+  color: #041B34;
 }
 
 .plane-icon {

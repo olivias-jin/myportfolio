@@ -23,8 +23,8 @@ document.addEventListener("DOMContentLoaded", () => {
             <h3>Project Overview</h3>
             <p>This is a a small web application with HTML, CSS, and JavaScript that loads data from an external API and
                 enables the viewing of data points in detail.</p>
-
-            <a href=" https://pokeapi.co/docs/v2" target="_blank">Pokemon API</a>
+    <div class="Link">
+            <a href=" https://pokeapi.co/docs/v2" target="_blank">Pokemon API</a></div>
 
 
             <h3>Technologies Used</h3>
@@ -295,6 +295,46 @@ document.addEventListener("DOMContentLoaded", () => {
                 <img src="img/project/surfing2.png" class="zoom-img">
                  <video width="500" height="360" controls autoplay>
       <source src="img/project/surfing.mov" type="video/mp4">
+
+            </video>    </a>
+        </div>`,
+
+
+        "Portal": `
+    <h1>Three.js</h1>
+      <div class="Link">
+            <a href="https://three-js-portal-orzrspesb-olivias-projects-aaec2529.vercel.app/" class="link-box">Live App</a>
+            <a href="https://github.com/olivias-jin/waves.git" target="_blank"
+                class="link-box">Repository</a>
+        </div>
+        <div>
+            <h3>Project Overview</h3>
+            <p>Portal Scene Creation with Blender and Three.js
+I modeled a 3D portal scene using Blender and integrated it into a real-time web experience using Three.js. The process involved optimizing geometry and textures for web performance, exporting with GLTF format, and applying lighting, camera controls, and animations in Three.js.
+This project strengthened my understanding of 3D asset workflows, WebGL rendering, and interactive web experiences.</p>
+            <h3>Technologies Used</h3>
+            <div class="tech-container">
+                <span class="tech-box">Three.js</span>
+                <span class="tech-box">JavaScript</span>
+                <span class="tech-box">Vertex Shader</span>
+                <span class="tech-box">Fragment Shader</span>
+                <span class="tech-box">Vite</span>
+                <span class="tech-box">Vercel</span>
+                <span class="tech-box">FontLoader</span>
+                <span class="tech-box">OrbitControls</span>
+                <span class="tech-box">PlaneGeometry</span>
+                <span class="tech-box">MeshStandardMaterial</span>
+                <span class="tech-box">Blender</span>
+                
+            </div>
+
+            <h3>Page Views</h3>
+            <a href="#">
+            <img src="img/project/scene1.png" class="zoom-img">
+                <img src="img/project/scene2.png" class="zoom-img">
+        
+                 <video width="500" height="360" controls autoplay>
+      <source src="img/project/video.mov" type="video/mp4">
 
             </video>    </a>
         </div>`,
