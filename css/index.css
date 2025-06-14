@@ -23,7 +23,7 @@ body {
   align-items: center;
   display: flex;
 
-  font-family: 'Helvetica', 'Arial', sans-serif
+  font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 /* 처음에는 main과 footer 숨김 */
